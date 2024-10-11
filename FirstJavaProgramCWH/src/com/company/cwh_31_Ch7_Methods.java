@@ -3,7 +3,7 @@ package com.company;
 public class cwh_31_Ch7_Methods {
     static int logic(int x, int y){
          // why using "int" after static?
-         // because we have to use "return" to pass the final value which is directly called using static method
+         // because we have to use "return" to pass the final "int" i.e integer-value because provided value also in "int"-format,which is directly called using static method,
          // Note:- Also "public" access modifier doesn't compulsary as it's default known by compiler if not specified
         int z;
         if(x > y){
