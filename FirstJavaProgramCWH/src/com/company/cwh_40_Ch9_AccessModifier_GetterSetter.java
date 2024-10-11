@@ -50,7 +50,7 @@ class MyCircle{
         return pi*radius*radius;
     }
     public float getPerimeter(){
-        return 4*pi*radius;
+        return 2*pi*radius;
     }
 }
 
