@@ -10,6 +10,7 @@ public class cwh_32_Ch7_MethodOverloading {
 
     static void change(int a){
         a =965;
+        System.out.println("The value inside static change logic is set to: " + a);
     }
 
     static void change2(int [] arr){
@@ -47,7 +48,7 @@ public class cwh_32_Ch7_MethodOverloading {
 
 
         // Case-2: Is original array element will change after running change2 method
-        // Answer: Yes,the value of array will change as it point toward same reference.Detailed ans. check below line
+        // Answer: Yes,the value of array will change, as it's point toward same reference.Detailed ans. check below line
         // Note: as we all know that method only copies the object but pointing toward same reference,so value should be change after running "change2"
         // Overall Java use primitive data-types as a "copy" inside method, while the reference copy has been passed for an object
         // Note2: Array is treated as an object and it's reference passed.Hence both method and main method point toward same obj. hence the obj. value will be changeable.
@@ -58,13 +59,13 @@ public class cwh_32_Ch7_MethodOverloading {
 
         // METHOD-OVERLOADING:-
         // Calling multiple methods of same name known as "Method-Overloading"
-        System.out.println("Calling 'foo' named 3-methods with different parameters to use 'Method-Overloading'");
+        System.out.println("Calling 'foo' named, 3-methods with different parameters to use 'Method-Overloading'");
         foo();
         foo(3000);
         foo(10,20);
 
 
-// Note: we can't do method overloading by changing the datatype of method because same method already defined for void method
+// Note: we can't do method overloading by changing the datatype of method because same no. of input variable already defined for void method
 // Also note: we can process method overloading by changing datatypes of method but the no. of input variable should be differ from previous all input variable no.
 
 // Special-Note: Difference between "Parameters and Arguments"
