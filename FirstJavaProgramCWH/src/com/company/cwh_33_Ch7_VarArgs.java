@@ -39,7 +39,7 @@ public class cwh_33_Ch7_VarArgs {
     public static void main(String[] args) {
         // Case-1: NAIVE METHOD -
         // Here for every new variable of sum() method we have to use multiple-overloading
-        // But the new variable can be many times,hence using "method-overloading for multiple unknown varibale appear in the sum() method is time taken & not memory efficient
+        // But the new variable can be of many no. of times,hence using "method-overloading for multiple unknown varibale appear in the sum() method is time taken & not memory efficient
         // Hence we will use "VarArgs" to follow practices of "DRY: do not repeat yourself"
 
         System.out.println("NAIVE-METHOD to use method overloading for multiple unknown variable which may be found in future modification");
@@ -50,7 +50,7 @@ public class cwh_33_Ch7_VarArgs {
 
 
         // Case-2: ADVANCED-MEHTOD -
-        // To prevent from using method overloading multiple times we use "VarArgs"
+        // To prevent us from using method overloading multiple times we use "VarArgs"
         // "VarArgs" store all the upcoming arguments in Array parameter to remove this issue
         System.out.println("Printing any no. of variable sum using 'VarArgs");
         System.out.println("The sum of nothing using VarArgs is " + sum2());
@@ -58,7 +58,7 @@ public class cwh_33_Ch7_VarArgs {
         System.out.println("The sum of 2,3 and 4 using VarArgs is " + sum2(2,3,4) + "\n\n");
 
 
-        // Case-3: at least One-argument should be necessary then "VarArgs should use like this"
+        // Case-3: if we want at least One-argument should be necessary then "VarArgs should use like this"
         System.out.println("Printing 'VarArgs', but atleasst 1-argument entry is compulsary");
         System.out.println("Printing 'VarArgs', with one-necessary arguments is " + sum3(4));
         // Below code will not parse as it doesn't have any single argument available,so commented
