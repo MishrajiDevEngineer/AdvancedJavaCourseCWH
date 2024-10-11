@@ -73,7 +73,7 @@ class Circle{
     float pi;
 
     public float perimeter(){
-        return 4*pi*radius*radius;
+        return 2*pi*radius;
     }
     public float area(){
         return pi*radius*radius;

@@ -67,7 +67,7 @@ public class cwh_35_Ch7_Method_PS {
 
     public static void main(String[] args) {
 
-        // Problem-1: print the table to any natural number using methods
+        // Problem-1: print the table of any natural number using methods
         System.out.println("Problem-1: Printing table of any natural number");
         multiplication(7);
 
